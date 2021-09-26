@@ -1,0 +1,252 @@
+.body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+
+.h1 { 
+    color: white;
+    font-size: 5rem;
+    vertical-align: top;
+}
+/*-------------Classes--------*/
+a{
+
+    text-decoration: none;
+
+}
+
+.flex-row{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+/* -----------Header Navbar------------*/
+.nav{
+    background-image: url("../images/Header.png");
+    background-repeat: no-repeat;
+    background-color: #F4A877;
+padding: 0 2rem;
+height: 0rem;
+min-height: 60vh;
+overflow: hidden;
+display: inline-block;
+width: 100%;
+max-width: 100%;
+height: auto;
+}
+
+
+.nav .nav-brand a { 
+font-size: 10rem;
+padding: 1rem 0;
+text-decoration: none;
+color: #ffffff;
+
+
+}
+
+.nav .nav-menu{
+
+    justify-content: space-evenly;
+    
+}
+
+.nav .nav-items{
+    text-decoration: none;
+color: #ffffff;
+display: inline-block;
+vertical-align: text-bottom;
+padding: 15%;
+text-align: left
+}
+
+
+.nav .nav-link {
+    color:white;
+    display: inline-block;
+    font-weight: bold;
+    font-family: monospace;
+    text-overflow: none;
+    justify-content: space-evenly;
+    vertical-align: bottom;
+    text-align: left;
+
+
+}
+.li {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    color: white;
+
+}
+
+/* -----X------Header Navbar-----X-------*/
+
+/* -----------Hero Content-----------*/
+.herobackground{
+
+    background-image: url(../images/section\ 1\ background\ w\ stickers.png);
+
+    padding: 0 2rem;
+height: 0rem;
+min-height: 60vh;
+overflow: hidden;
+display: inline-block;
+max-width: 100%;
+height: auto;
+}
+
+.heroflex-containers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+}
+
+.nav .nav-brand a { 
+font-size: 10rem;
+padding: 1rem 0;
+text-decoration: none;
+color: #ffffff;
+
+}
+.appContainer{
+
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 2000px;
+    overflow: hidden;
+    font-family: monospace;
+    justify-content: flex-start;
+    }
+}
+.page-app{
+    background-image: url(../images/page\ home\ ss.png);
+    text-decoration: none;
+    font-family: monospace;
+    
+}
+   
+
+}
+.MallMiles-App{
+    background-image: url(../images/MM\ home\ SS.png);
+    text-decoration: none;
+    font-family: monospace;
+   
+}
+}
+.OCCHC-app{
+    background-image: url(../images/OCCHC\ home\ ss.png);
+    text-decoration: none;
+    font-family: monospace;
+
+}
+}
+.myWork-All{
+    background-image: url(../images/OCCHC\ home\ ss.png);
+    text-decoration: none;
+    font-family: monospace;
+  
+}
+/* -----X------Hero Content-----X-------*/
+
+/*-------------About ME--------------*/
+.whoShe{
+    background-color: #F8B7B0;
+    display: flex;
+    font-family: monospace;
+    padding: 10px;
+    justify-content: left;
+    max-width: 100%;
+height: auto;   
+}
+
+h1 {
+    color: white;
+    text-align: start;
+    text-decoration: none;
+}
+p { color: white;
+    text-overflow: inherit;
+
+}
+
+
+/*--------X-----About ME--------X------*/
+
+/*-------------My Skills--------------*/
+
+.h2{
+   color: white; 
+   padding: 10px;
+   max-width: 100%;
+height: auto;
+   
+}
+
+
+.mySkills{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    background-color: #F4A877;
+
+}
+
+
+.flexContainer{
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    width: 25% 25% 25% 25%;
+    padding: 10px;
+    background-color: #F4A877;
+    font-family: monospace;
+    
+
+}
+.a{
+    flex-direction: row;
+}
+
+/*-------X------My Skills--------X------*/
+
+
+
+
+
+/*-------------Footer--------------*/
+.heroimg{
+    background-color: #F4A877;
+padding: 0 2rem;
+height: 0rem;
+min-height: 10vh;
+overflow: hidden;
+display: inline-block;
+color: white;
+align-items: flex-end;
+}
+.inline-block {
+
+    color:white;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-around;
+
+}
+
+/*-------X------Footer-------X-------*/
+
+
+/*-------------Media Query--------------*/
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightpink;
+    }
+  
+
+/*-------------Media Query--------------*/
