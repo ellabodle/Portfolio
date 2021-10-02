@@ -1,0 +1,344 @@
+body{
+    margin: 0%;
+    box-sizing: border-box;
+    overflow-x:hidden;
+}
+/*-------------Global Classes--------*/
+a{
+
+    text-decoration: none;
+
+}
+
+.flex-row{
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ }
+
+
+/* -----------Navbar------------*/
+
+
+
+.nav{
+    background-image: url("../images/Header.png");
+    background-color: #F4A877;
+    background-repeat: no-repeat;
+padding: 0 2rem;
+height: 0 auto;
+min-height: 60vh;
+overflow: hidden;
+width: 100%;
+}
+
+.name{
+
+    font-weight: bold;
+    font-family: monospace;
+    margin: auto;
+  width: 100%;
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.nav-bar { 
+font-size: 20px;
+padding: 10px;
+text-decoration: underline;
+color: #ffffff;
+justify-content: space-evenly;
+
+
+}
+
+.nav-menu{
+
+    justify-content: space-evenly;
+    
+}
+
+.nav-items{
+text-decoration: none;
+color: #ffffff;
+font-family: monospace;
+text-align: center;
+}
+.nav-link{
+
+    .nav-items{
+        text-decoration: underline;
+        color: #ffffff;
+        font-family: monospace
+        ;
+        }
+}
+/* -----X------Navbar-----X-------*/
+
+/* -----------Hero Content-----------*/
+.herobackground{
+
+    background-image: url(../images/section\ 1\ background\ w\ stickers.png);
+
+    padding: 0 2rem;
+height: 0rem;
+min-height: 60vh;
+overflow: hidden;
+display: inline-block;
+max-width: 100%;
+height: auto;
+}
+
+
+.nav .nav-brand a { 
+font-size: 10rem;
+padding: 1rem 0;
+text-decoration: none;
+color: #ffffff;
+
+}
+.appContainer{
+justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 2000px;
+    overflow: hidden;
+    font-family: monospace;
+
+    }
+}
+.page-app{
+    background-image: url(../images/page\ home\ ss.png);
+    text-decoration: none;
+    font-family: monospace;
+    
+}
+   
+
+}
+.MallMiles-App{
+    background-image: url(../images/MM\ home\ SS.png);
+    background-repeat: none;
+    display: flex;
+  text-decoration: none;
+    font-family: monospace;
+   
+}
+}
+.OCCHC-app{
+    background-image: url(../images/OCCHC\ home\ ss.png);
+    text-decoration: none;
+    font-family: monospace;
+
+}
+}
+.myWork-All{
+    background-image: url(../images/OCCHC\ home\ ss.png);
+    text-decoration: none;
+    font-family: monospace;
+  
+}
+
+
+.heroflex-containers{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: left;
+    background-image: url(../images/section\ 1\ background\ w\ stickers.png);
+background-repeat: repeat;
+color: white;
+text-align: left;
+text-decoration: none;
+}
+
+.appContainer {
+
+}
+/* -----X------Hero Content-----X-------*/
+
+/*-------------About ME--------------*/
+.whoShe{
+    background-color: #F8B7B0;
+    display: flex;
+    font-family: monospace;
+    padding: 10px;
+    justify-content: space-around;
+    max-width: 100%;
+    
+height: auto;   
+}
+
+
+
+h1 {
+    color: white;
+    text-align: start;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: monospace;
+}
+p { color: black;
+    text-overflow: inherit;
+    font-size: 18px;
+
+}
+
+
+/*--------X-----About ME--------X------*/
+
+/*-------------My Skills--------------*/
+
+.h2{
+   color: white; 
+   padding: 10px;
+   max-width: 100%;
+height: auto;
+   
+}
+
+
+.mySkills{
+    background-color: #F4A877;
+    background-image: url(/images/section\ 1\ background\ w\ stickers.png);
+    font-family: monospace;
+    color:  white;
+    font-size: 30px;
+
+}
+
+
+.flexContainer{
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    width: 25% 25% 25% 25%;
+    padding: 10px;
+    background-color: #F4A877;
+    font-family: monospace;
+    
+
+}
+.a{
+    flex-direction: column;
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #EC8682;
+    background-color: #EC8682 ;
+    color: white;
+    font-family: monospace;
+    font-size: 20px;
+
+
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #E07843;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #F4A877;
+    color: white;
+    font-size: 30pt;
+    font-family: monospace;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid rgb(163, 135, 135);
+    border-top: none;
+    color: white;
+    font-family: monospace;
+
+  }
+
+
+/*-------X------My Skills--------X------*/
+
+
+.CTAbutton{
+align: center;
+    background-color:lightgray;
+    color: #EC8682;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10pt;
+    flex-wrap: wrap;
+    ;
+
+
+}
+
+
+/*-------------Footer--------------*/
+.heroimg{
+    background-color: #F8B7B0;
+padding: 0 2rem;
+height: 0 auto;
+min-height: 0 auto;
+width: 0 auto;
+overflow: hidden;
+display: inline-block;
+color: white;
+align-items: flex-end;
+}
+.inline-block {
+
+    color:white;
+    display: inline-block;
+    vertical-align: top;
+    justify-content: space-between;
+    width: 0 auto;
+    background-color: #F8B7B0;
+
+}
+.nav-items{
+
+    color: white;
+    background-color: #8B7B0;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+/*-------X------Footer-------X-------*/
+button{
+    color: #black;
+    background-color: white;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+
+/*-------------Media Query--------------*/
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightpink;
+    }
+  
+
+/*-------------Media Query--------------*/
